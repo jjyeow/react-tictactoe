@@ -1,5 +1,4 @@
 import React from 'react'
-import BoxData from '../util/BoxData'
 
 function Box(props) {
     return (
