@@ -2,20 +2,15 @@ import React from 'react'
 
 function Box(props) {
     return (
+
             <div 
-                style={{
-                display: "inline-block",
-                width: "10vw",
-                height: "10vw",
-                lineHeight: "10vw",
-                justifyContent: "center",
-                textAlign: "center",
-                border: "solid 3px black"    
-            }}
+            className="boxes"
             onClick={() => props.handleClick(props.id)}>
                 {props.box.value}
+                
             </div>
-
+            
+        
     )
 }
 
